@@ -4,11 +4,10 @@ import { Icon } from "@mui/material";
 
 function Header() {
   return (
-    <div className="sticky top-0 z-50 flex items-center px-4 py-2 shadow-md bg-white">
+    <header className="sticky top-0 z-50 flex items-center px-4 py-2 shadow-md bg-white">
       <IconButton
         color="gray"
         variant="outlined"
-        ripple="dark"
         className="md:inline h-20 w-20 border-0"
       >
         <Icon>menu</Icon>
@@ -30,7 +29,6 @@ function Header() {
       <IconButton
         color="gray"
         variant="outlined"
-        ripple="dark"
         className="hidden md:inline-flex ml-5 md:ml-20 h-20 w-20 border-0"
       >
         <Icon>apps</Icon>
@@ -42,7 +40,7 @@ function Header() {
         src="https://lh3.googleusercontent.com/a/AEdFTp4CcxTFKaGv7pIdXvqbifXJzYBUIFS-6gXKSZ5fWTs=s96-c"
         alt=""
       />
-    </div>
+    </header>
   );
 }
 
