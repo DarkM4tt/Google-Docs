@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flx flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
         <title>Google Docs Clone</title>
         <link rel="icon" href="/favicon.ico" />
